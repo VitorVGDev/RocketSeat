@@ -60,3 +60,47 @@ section {
 #content_list {
     padding: 64px 0px;
 }
+
+.card_travel + .card_travel{
+    margin-top: 40px;
+}
+
+.card_travel h3 {
+    font-size: 28px;
+    color: #1B1B1B;
+    padding-left: 5px;
+}
+
+
+#card1 {
+    margin-top: 64px;
+}
+
+#title h2 {
+    color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#title p {
+    margin-top: 8px;
+}
+
+ul {
+    color: #1B1B1B;
+    font-weight: bold;
+}
+
+
+li {
+    color: blue;
+    list-style-position: inside; /* Faz a bolinha ficar dentro da área do <li> */ 
+}
+
+li::marker {
+    color: #1B1B1B;
+}
+
+#li_card1 {
+    margin-left: -20px;
+}
