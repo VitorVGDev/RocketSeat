@@ -75,3 +75,41 @@ header {
 #header_right img:hover {
     border: 2.5px solid var(--salmon);
 }
+
+#presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 32px;
+    height: 240px;
+
+    color: var(--gray-600);
+    font-size: 14px;
+}
+
+#presentation_left {
+    display: flex;
+    align-items: center;
+    width: 592px;
+    gap: 32px;
+}
+
+#presentation_left strong {
+    font-size: 32px;
+    color: var(--gray-800);
+    margin-bottom: 8px;
+}
+
+#presentation_right {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#presentation_right div {
+    display: flex;
+    margin: 16px;
+    gap: 8px;
+}
