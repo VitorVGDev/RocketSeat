@@ -113,3 +113,17 @@ header {
     margin: 16px;
     gap: 8px;
 }
+
+#photos_gallery {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#photos_gallery img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+}
